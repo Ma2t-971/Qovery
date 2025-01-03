@@ -1,0 +1,116 @@
+main{
+    position: relative;
+    padding: 2rem;
+    padding-top: 6rem;
+    background-color: #F9F9FD;
+    article{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        color: #454658;
+        h2{
+            margin-bottom: 1.5rem;
+        }
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+    article:first-of-type{
+        margin-bottom: 8rem;
+    }
+
+    article:nth-of-type(2){
+        position: relative;
+        margin-bottom: 0;
+        .img{
+            img:first-of-type{
+                height: 186px;
+                width: 100%;
+                max-width: 900px;
+                object-fit:none;
+                margin-left: 3.75rem;
+            }
+            img:last-of-type{
+                background-color: #FFFFFF;
+                padding: 1.5rem;
+            } 
+        }
+        .enttart{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            margin: 0;
+            
+            p{
+                margin: 0;
+            }
+        }
+        .lien{
+            color: #F9F9FD;
+            justify-content: center;
+            margin-bottom: 7rem;
+            a{
+                img{
+                    height: fit-content;
+                }
+            
+            }
+            p{
+                margin-bottom: 0;
+            } 
+        }
+    }
+    .bloc{
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+        justify-content: space-between;
+        section{
+            width: 100%;
+            img{
+                margin-bottom: 2.125rem;
+            }
+            h2{
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+                margin-bottom: .75rem;
+                margin-top: 1.5rem;
+                color: #454658;
+                text-align: justify;
+            }
+            a{
+                text-transform: uppercase;
+                font-size: .75rem;
+                text-decoration: none;
+                color: #5D64D2;
+            } 
+        }
+        section:first-of-type{
+            margin-right: 14rem;
+        }
+    }
+    .end{
+        font-size: 2rem;
+        margin-top: 10.375rem;
+        margin-bottom: 16.625rem;
+        text-align: center;
+        color: #454658;
+    }
+    .bloc:first-of-type{
+        margin-bottom: 4rem;
+    }
+
+    hr{
+        height: 124px;
+        background-color: #151B2B;
+        width: 100%;
+        border: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+}

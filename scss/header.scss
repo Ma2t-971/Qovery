@@ -1,0 +1,39 @@
+header{
+    background-color: #151B2B;
+    padding: 2rem;
+    padding-bottom: 10rem;
+    padding-top: 2.5rem;
+    .header{
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+        color: #F9F9FD;
+        .content{
+            width: 100%;
+            margin-right: 2.125rem;
+            .entt{
+                margin-top: 7.5rem;
+                margin-bottom: 1.5rem;
+                display: flex;
+                align-items: baseline;
+                h1{
+                    font-size: 2.875rem;
+                }
+                a{
+                    margin-left: 1.5rem;
+                }
+            }
+            h2{
+                margin-bottom: 1.5rem;
+            }
+            p{
+                margin: 0 .5rem ;
+            }
+            
+        }
+        .imgright{
+            width: 100%;
+            margin-left: 2.125rem;;
+        }
+    }
+}
